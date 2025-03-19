@@ -33,7 +33,7 @@ class GoogleCalendarAgent:
     CACHE_FILE_PROMPT = ".cache.prompt.txt"
     DAYS_IN_FUTURE = 21
     DEFAULT_SECRET_REGION = "eu-west-2"
-    ADMIN_EMAIL = "pw@wagestream.co.uk" # A Google Workspace Admin user who will have permissions to read the directory of all users
+    ADMIN_EMAIL = "admin@wagestream.co.uk" # A Google Workspace Admin user who will have permissions to read the directory of all users
     EXCLUDED_DOMAINS = set(['resource.calendar.google.com', 'hibob.io', 'assistant.gong.io'])
     INTERNAL_DOMAINS = set(['wagestream.co.uk', 'wagestream.com', 'resource.calendar.google.com', 'assistant.gong.io'])
     PERSONAL_DOMAINS = set(['gmail.com', 'yahoo.com', 'hotmail.com', 'outlook.com', 'icloud.com', 'yahoo.co.uk'])
